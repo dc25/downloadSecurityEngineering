@@ -50,5 +50,5 @@ for s in $CHAPTERS; do
     curl ${FOLDER}$s -o $s
 done
 
-pdftk $CHAPTERS output SecurityEngineering—ThirdEdition.pdf 
+pdftk $CHAPTERS output SecurityEngineeringThirdEdition.pdf 
 rm $CHAPTERS
